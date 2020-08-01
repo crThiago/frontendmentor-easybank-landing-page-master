@@ -22,7 +22,7 @@ module.exports = {
   },
   variants: {
     gradients: ['responsive', 'hover'],
-    borderWidth: ['responsive', 'hover']
+    borderWidth: ['responsive', 'hover'],
   },
   plugins: [
     require('./plugins/gradients')

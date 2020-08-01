@@ -3,6 +3,7 @@
     <Navbar/>
     <!-- <Banner/> -->
     <Services/>
+    <Articles/>
   </div>
 </template>
 
@@ -10,12 +11,14 @@
 import Navbar from './components/Navbar'
 // import Banner from './components/Banner'
 import Services from './components/Services'
+import Articles from './components/Articles'
 
 export default {
   name: 'app',
   components: {
     Navbar,
-    Services
+    Services,
+    Articles
   },
 }
 </script>
