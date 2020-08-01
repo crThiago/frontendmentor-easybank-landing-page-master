@@ -1,6 +1,6 @@
 <template>
   <section class="bg-gray-100">
-    <div class="container pt-24 px-6">
+    <div class="container pt-24 pb-20 px-6">
       <header>
         <h3 class="text-center text-3xl text-dark-blue leading-tight md:text-4xl md:text-left">Latest Articles</h3>
       </header>
@@ -10,7 +10,7 @@
             <div class="relative pb-48">
               <img class="absolute h-full w-full object-cover" :src="`./images/${ article.image }`" alt="">
             </div>
-            <div class="relative pt-6 px-8">
+            <div class="relative pt-6 px-8 lg:px-6">
               <p class="mt-1 text-xs text-gray-600">By {{ article.author }}</p>
               <h4 class="mt-3 cursor-pointer text-base text-dark-blue leading-snug hover:text-lime-green">{{ article.title }}</h4>
               <p class="mt-2 text-sm leading-snug text-gray-600">{{ article.resume }}</p>

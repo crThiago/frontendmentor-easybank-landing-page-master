@@ -4,6 +4,7 @@
     <!-- <Banner/> -->
     <Services/>
     <Articles/>
+    <CFooter/>
   </div>
 </template>
 
@@ -12,13 +13,15 @@ import Navbar from './components/Navbar'
 // import Banner from './components/Banner'
 import Services from './components/Services'
 import Articles from './components/Articles'
+import CFooter from './components/CFooter'
 
 export default {
   name: 'app',
   components: {
     Navbar,
     Services,
-    Articles
+    Articles,
+    CFooter,
   },
 }
 </script>

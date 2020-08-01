@@ -2,7 +2,7 @@
   <div>
     <header class="fixed z-20 w-full px-4 py-5 bg-white md:py-0">
       <div class="container flex items-center justify-between">
-        <img src="/images/logo.svg" alt="logo">
+        <Logo />
         <nav :class="isOpen ? 'block' : 'hidden'" class="absolute z-20 right-0 w-11/12 py-4 mr-5 mt-21 text-lg rounded bg-white md:sticky md:flex md:items-center md:w-auto md:mt-0 md:bg-transparent md:text-sm md:py-0">
           <a class="block py-2 box-contain text-center text-gray-900 border-lime-green border-solid md:flex md:items-center md:py-0  md:h-20 md:ml-6 md:hover:border-b-4 hover:font-semibold md:text-left md:text-gray-600" href="#">Home</a>
           <a class="block py-2 box-contain text-center text-gray-900 border-lime-green border-solid md:flex md:items-center md:py-0  md:h-20 md:ml-6 md:hover:border-b-4 hover:font-semibold md:text-left md:text-gray-600" href="#">About</a>
@@ -21,15 +21,17 @@
 
     </header>
     
-    <div v-show="isOpen" @click="isOpen = false" class="absolute z-10 top-0 right-0 w-screen h-screen bg-black opacity-25"></div>
+    <div v-show="isOpen" @click="isOpen = false" class="fixed z-10 top-0 right-0 w-screen h-screen bg-black opacity-25"></div>
   </div>
 </template>
 
 <script>
+import Logo from './Logo'
 import Btn from './Btn'
 
 export default {
   components: {
+    Logo,
     Btn
   },
   data() {
