@@ -15,9 +15,6 @@ module.exports = {
         'lime-green': '#31d35c',
         'bright-cyan': '#2bb7da',
       },
-      screens: {
-        'xxl': '1440px'
-      },
       margin: {
         '21': '21rem'
       }
