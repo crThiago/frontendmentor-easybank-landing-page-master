@@ -14,7 +14,7 @@
         <article v-for="service in services" :key="service.title" class="mt-12 px-6 text-center sm:w-1/2 lg:w-1/4 lg:pl-0 lg:pr-16 lg:text-left">
           <img class="inline" :src="`/images/${service.image}`" alt="">
           <h4 class="mt-8 text-2xl text-dark-blue">
-            {{ services.title }}
+            {{ service.title }}
           </h4>
           <p class="mt-5 text-gray-500 text-sm lg:mt-6 lg:text-base">
             {{ service.describle }}

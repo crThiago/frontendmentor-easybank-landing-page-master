@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Navbar/>
-    <!-- <Banner/> -->
+    <Banner/>
     <Services/>
     <Articles/>
     <CFooter/>
@@ -10,7 +10,7 @@
 
 <script>
 import Navbar from './components/Navbar'
-// import Banner from './components/Banner'
+import Banner from './components/Banner'
 import Services from './components/Services'
 import Articles from './components/Articles'
 import CFooter from './components/CFooter'
@@ -19,6 +19,7 @@ export default {
   name: 'app',
   components: {
     Navbar,
+    Banner,
     Services,
     Articles,
     CFooter,
