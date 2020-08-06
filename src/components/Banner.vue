@@ -6,8 +6,8 @@
         <p class="mt-3 text-sm text-center text-gray-500 md:text-left">Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.</p>
         <Btn class="block mt-6 mx-auto md:mx-0"/>
       </div>
-      <div class="md:absolute md:right-0 md:-mt-24 md:-mr-32">
-        <img class="-mt-16" src="/images/image-mockups.png" alt="mockup">
+      <div class="md:max-w-sm lg:absolute lg:max-w-none lg:w-auto lg:right-0 lg:-mt-24 lg:-mr-32">
+        <img class="-mt-16 md:mt-10 lg:-mt-16" src="/images/image-mockups.png" alt="mockup">
       </div>
     </div>
   </section>
@@ -32,7 +32,7 @@ export default {
 @media (min-width: 767px) {
   .bg-image {
     background-size: auto;
-    background-position: 600px -188px;
+    background-position: 42vw -16vh;
     background-image: url('/images/bg-intro-desktop.svg');
   }
 }
