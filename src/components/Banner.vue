@@ -7,7 +7,7 @@
         <Btn class="block mt-6 mx-auto md:mx-0"/>
       </div>
       <div class="md:max-w-sm lg:absolute lg:max-w-none lg:w-auto lg:right-0 lg:-mt-24 lg:-mr-32">
-        <img class="-mt-16 md:mt-10 lg:-mt-16" src="/images/image-mockups.png" alt="mockup">
+        <img class="-mt-16 md:mt-10 lg:-mt-16" :src="'./images/image-mockups.png'" alt="mockup">
       </div>
     </div>
   </section>
@@ -22,7 +22,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="postcss" scoped>
 .bg-image {
   background-size: contain;
   background-repeat: no-repeat;
