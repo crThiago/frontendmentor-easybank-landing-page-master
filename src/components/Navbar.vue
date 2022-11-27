@@ -25,23 +25,10 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import Logo from './Logo.vue'
 import Btn from './Btn.vue'
+import { ref } from 'vue'
 
-export default {
-  components: {
-    Logo,
-    Btn
-  },
-  data() {
-    return {
-      isOpen: false
-    }
-  }
-}
+const isOpen = ref(false)
 </script>
-
-<style>
-
-</style>

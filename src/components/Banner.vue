@@ -13,13 +13,8 @@
   </section>
 </template>
 
-<script>
+<script setup>
 import Btn from './Btn.vue'
-export default {
-  components: {
-    Btn
-  }
-}
 </script>
 
 <style lang="postcss" scoped>

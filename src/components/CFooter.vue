@@ -43,18 +43,7 @@
   </footer>
 </template>
 
-<script>
+<script setup>
 import Logo from './Logo.vue'
 import Btn from './Btn.vue'
-
-export default {
-  components: {
-    Logo,
-    Btn
-  }
-}
 </script>
-
-<style>
-
-</style>

@@ -25,37 +25,29 @@
   </section>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      services: [
-        {
-          image: "icon-online.svg",
-          title: "Online Banking",
-          describle: "Our modern web and mobile applications allow you to keep track of your finances wherever you are in the world."
-        },
-        {
-          image: "icon-budgeting.svg",
-          title: "Simple Budgeting",
-          describle: "See exactly where your money goes each month. Receive notifications when you’re close to hitting your limits."
-        },
-        {
-          image: "icon-onboarding.svg",
-          title: "Fast Onboarding",
-          describle: "We don’t do branches. Open your account in minutes online and start taking control of your finances right away."
-        },
-        {
-          image: "icon-api.svg",
-          title: "Open API",
-          describle: "Manage your savings, investments, pension, and much more from one account. Tracking your money has never been easier."
-        },
-      ]
-    }
+<script setup>
+import { ref } from 'vue'
+
+const services = ref([
+  {
+    title: 'Online Banking',
+    image: 'icon-online.svg',
+    describle: 'Our modern web and mobile applications allow you to keep track of your finances wherever you are in the world.'
+  },
+  {
+    title: 'Simple Budgeting',
+    image: 'icon-budgeting.svg',
+    describle: 'See exactly where your money goes each month. Receive notifications when you’re close to hitting your limits.'
+  },
+  {
+    title: 'Fast Onboarding',
+    image: 'icon-onboarding.svg',
+    describle: 'We don’t do branches. Open your account in minutes online and start taking control of your finances right away.'
+  },
+  {
+    title: 'Open API',
+    image: 'icon-api.svg',
+    describle: 'Manage your savings, investments, pension, and much more from one account. Tracking your money has never been easier.'
   }
-}
+])
 </script>
-
-<style>
-
-</style>
