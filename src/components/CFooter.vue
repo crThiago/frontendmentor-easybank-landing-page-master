@@ -44,8 +44,8 @@
 </template>
 
 <script>
-import Logo from './Logo'
-import Btn from './Btn'
+import Logo from './Logo.vue'
+import Btn from './Btn.vue'
 
 export default {
   components: {

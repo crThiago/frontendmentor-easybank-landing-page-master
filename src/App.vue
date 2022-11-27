@@ -9,11 +9,11 @@
 </template>
 
 <script>
-import Navbar from './components/Navbar'
-import Banner from './components/Banner'
-import Services from './components/Services'
-import Articles from './components/Articles'
-import CFooter from './components/CFooter'
+import Navbar from './components/Navbar.vue'
+import Banner from './components/Banner.vue'
+import Services from './components/Services.vue'
+import Articles from './components/Articles.vue'
+import CFooter from './components/CFooter.vue'
 
 export default {
   name: 'app',
@@ -27,4 +27,3 @@ export default {
 }
 </script>
 
-<style src="./assets/tailwind.css"></style>
